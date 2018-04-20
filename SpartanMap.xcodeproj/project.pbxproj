@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE41BE06EEFF669FD7834722 /* Pods_SpartanMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62400D2C777152DBA143AE1B /* Pods_SpartanMap.framework */; };
+		FF21EB6C207EC6B30050FBFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF21EB6B207EC6B20050FBFA /* Assets.xcassets */; };
+		FF502738206B18030022D8C9 /* SpartanMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF502736206B18030022D8C9 /* SpartanMap.xcdatamodeld */; };
+		FF502757206B18F00022D8C9 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF502756206B18F00022D8C9 /* CloudKit.framework */; };
+		FF502759206B194D0022D8C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF502758206B194C0022D8C9 /* GoogleService-Info.plist */; };
+		FF50275D206B19E60022D8C9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF50275C206B19E60022D8C9 /* MapKit.framework */; };
+		FF50279D206B24F40022D8C9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF502799206B24F30022D8C9 /* MenuViewController.swift */; };
+		FF50279E206B24F40022D8C9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50279A206B24F40022D8C9 /* LoginViewController.swift */; };
+		FF50279F206B24F40022D8C9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50279B206B24F40022D8C9 /* SignUpViewController.swift */; };
+		FF5027AA206B25090022D8C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5027A6206B25090022D8C9 /* HomeViewController.swift */; };
+		FF5027AE206B25130022D8C9 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5027AC206B25130022D8C9 /* UserProfile.swift */; };
+		FF5027B1206B251D0022D8C9 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5027AF206B251D0022D8C9 /* UserService.swift */; };
+		FF5027B2206B251D0022D8C9 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5027B0206B251D0022D8C9 /* ImageService.swift */; };
+		FF5027B6206B25270022D8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5027B4206B25260022D8C9 /* Main.storyboard */; };
+		FF5027B8206B252D0022D8C9 /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5027B7206B252D0022D8C9 /* RoundedWhiteButton.swift */; };
+		FF5027BA206B27D90022D8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5027B9206B27D90022D8C9 /* LaunchScreen.storyboard */; };
+		FF5027C2206B9D820022D8C9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF5027C1206B9D820022D8C9 /* Info.plist */; };
+		FFE8621C2076D99A00C5B8DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8621B2076D99900C5B8DD /* AppDelegate.swift */; };
+		FFE8621E2076D9AB00C5B8DD /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE8621D2076D9AA00C5B8DD /* HelperExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06494D54E006D6D83FF73AA4 /* Pods-SpartanMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanMap/Pods-SpartanMap.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8C106EA03DA0632855DDE1 /* Pods-SpartanMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanMap/Pods-SpartanMap.release.xcconfig"; sourceTree = "<group>"; };
+		62400D2C777152DBA143AE1B /* Pods_SpartanMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpartanMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF21EB6B207EC6B20050FBFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF50272C206B18030022D8C9 /* SpartanMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF502737206B18030022D8C9 /* SpartanMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpartanMap.xcdatamodel; sourceTree = "<group>"; };
+		FF502754206B18EA0022D8C9 /* SpartanMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpartanMap.entitlements; sourceTree = "<group>"; };
+		FF502756206B18F00022D8C9 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		FF502758206B194C0022D8C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF50275C206B19E60022D8C9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FF502799206B24F30022D8C9 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		FF50279A206B24F40022D8C9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FF50279B206B24F40022D8C9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FF5027A6206B25090022D8C9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FF5027AC206B25130022D8C9 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		FF5027AF206B251D0022D8C9 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		FF5027B0206B251D0022D8C9 /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		FF5027B4206B25260022D8C9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FF5027B7206B252D0022D8C9 /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
+		FF5027B9206B27D90022D8C9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF5027C1206B9D820022D8C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBA56802087F881002EAFAA /* SpartanMap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SpartanMap-Bridging-Header.h"; path = "../../../../SpartanMap-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFE8621B2076D99900C5B8DD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFE8621D2076D9AA00C5B8DD /* HelperExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF502729206B18030022D8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF50275D206B19E60022D8C9 /* MapKit.framework in Frameworks */,
+				FF502757206B18F00022D8C9 /* CloudKit.framework in Frameworks */,
+				BE41BE06EEFF669FD7834722 /* Pods_SpartanMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F43FA6FF9296176A7A29A95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06494D54E006D6D83FF73AA4 /* Pods-SpartanMap.debug.xcconfig */,
+				3F8C106EA03DA0632855DDE1 /* Pods-SpartanMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF502723206B18030022D8C9 = {
+			isa = PBXGroup;
+			children = (
+				FF50272E206B18030022D8C9 /* SpartanMap */,
+				FF50272D206B18030022D8C9 /* Products */,
+				FF502755206B18F00022D8C9 /* Frameworks */,
+				8F43FA6FF9296176A7A29A95 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		FF50272D206B18030022D8C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF50272C206B18030022D8C9 /* SpartanMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF50272E206B18030022D8C9 /* SpartanMap */ = {
+			isa = PBXGroup;
+			children = (
+				FFE8621B2076D99900C5B8DD /* AppDelegate.swift */,
+				FFBA567B20873356002EAFAA /* Authentication */,
+				FFBA567E2087338B002EAFAA /* Home */,
+				FFBA567C20873368002EAFAA /* Model */,
+				FFBA567D20873374002EAFAA /* Services */,
+				FFBA567F20873393002EAFAA /* Ui */,
+				FFE8621D2076D9AA00C5B8DD /* HelperExtensions.swift */,
+				FF5027B9206B27D90022D8C9 /* LaunchScreen.storyboard */,
+				FF5027B4206B25260022D8C9 /* Main.storyboard */,
+				FF21EB6B207EC6B20050FBFA /* Assets.xcassets */,
+				FF5027C1206B9D820022D8C9 /* Info.plist */,
+				FF502758206B194C0022D8C9 /* GoogleService-Info.plist */,
+				FF502754206B18EA0022D8C9 /* SpartanMap.entitlements */,
+				FF502736206B18030022D8C9 /* SpartanMap.xcdatamodeld */,
+				FFBA56802087F881002EAFAA /* SpartanMap-Bridging-Header.h */,
+			);
+			path = SpartanMap;
+			sourceTree = "<group>";
+		};
+		FF502755206B18F00022D8C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF50275C206B19E60022D8C9 /* MapKit.framework */,
+				FF502756206B18F00022D8C9 /* CloudKit.framework */,
+				62400D2C777152DBA143AE1B /* Pods_SpartanMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFBA567B20873356002EAFAA /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FF50279A206B24F40022D8C9 /* LoginViewController.swift */,
+				FF502799206B24F30022D8C9 /* MenuViewController.swift */,
+				FF50279B206B24F40022D8C9 /* SignUpViewController.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		FFBA567C20873368002EAFAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF5027AC206B25130022D8C9 /* UserProfile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFBA567D20873374002EAFAA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FF5027B0206B251D0022D8C9 /* ImageService.swift */,
+				FF5027AF206B251D0022D8C9 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FFBA567E2087338B002EAFAA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF5027A6206B25090022D8C9 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FFBA567F20873393002EAFAA /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				FF5027B7206B252D0022D8C9 /* RoundedWhiteButton.swift */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF50272B206B18030022D8C9 /* SpartanMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF502741206B18030022D8C9 /* Build configuration list for PBXNativeTarget "SpartanMap" */;
+			buildPhases = (
+				00EB702BDEC2DCE88087E71D /* [CP] Check Pods Manifest.lock */,
+				FF502728206B18030022D8C9 /* Sources */,
+				FF502729206B18030022D8C9 /* Frameworks */,
+				FF50272A206B18030022D8C9 /* Resources */,
+				B718053391851995F0F2EAD0 /* [CP] Embed Pods Frameworks */,
+				9F4D3E08FD68AE5FF5547821 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpartanMap;
+			productName = SpartanMap;
+			productReference = FF50272C206B18030022D8C9 /* SpartanMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF502724206B18030022D8C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Yosimy Cortes";
+				TargetAttributes = {
+					FF50272B206B18030022D8C9 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FF502727206B18030022D8C9 /* Build configuration list for PBXProject "SpartanMap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF502723206B18030022D8C9;
+			productRefGroup = FF50272D206B18030022D8C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF50272B206B18030022D8C9 /* SpartanMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF50272A206B18030022D8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5027C2206B9D820022D8C9 /* Info.plist in Resources */,
+				FF5027B6206B25270022D8C9 /* Main.storyboard in Resources */,
+				FF502759206B194D0022D8C9 /* GoogleService-Info.plist in Resources */,
+				FF21EB6C207EC6B30050FBFA /* Assets.xcassets in Resources */,
+				FF5027BA206B27D90022D8C9 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00EB702BDEC2DCE88087E71D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpartanMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4D3E08FD68AE5FF5547821 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanMap/Pods-SpartanMap-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanMap/Pods-SpartanMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B718053391851995F0F2EAD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanMap/Pods-SpartanMap-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanMap/Pods-SpartanMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF502728206B18030022D8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF50279E206B24F40022D8C9 /* LoginViewController.swift in Sources */,
+				FF50279D206B24F40022D8C9 /* MenuViewController.swift in Sources */,
+				FF5027B1206B251D0022D8C9 /* UserService.swift in Sources */,
+				FF5027AA206B25090022D8C9 /* HomeViewController.swift in Sources */,
+				FF5027AE206B25130022D8C9 /* UserProfile.swift in Sources */,
+				FFE8621E2076D9AB00C5B8DD /* HelperExtensions.swift in Sources */,
+				FF502738206B18030022D8C9 /* SpartanMap.xcdatamodeld in Sources */,
+				FFE8621C2076D99A00C5B8DD /* AppDelegate.swift in Sources */,
+				FF5027B8206B252D0022D8C9 /* RoundedWhiteButton.swift in Sources */,
+				FF50279F206B24F40022D8C9 /* SignUpViewController.swift in Sources */,
+				FF5027B2206B251D0022D8C9 /* ImageService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FF50273F206B18030022D8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF502740206B18030022D8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF502742206B18030022D8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06494D54E006D6D83FF73AA4 /* Pods-SpartanMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SpartanMap/SpartanMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = SpartanMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yosimy.cortes.MapkitPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpartanMap/SpartanMap-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF502743206B18030022D8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8C106EA03DA0632855DDE1 /* Pods-SpartanMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SpartanMap/SpartanMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
+				INFOPLIST_FILE = SpartanMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yosimy.cortes.MapkitPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SpartanMap/SpartanMap-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF502727206B18030022D8C9 /* Build configuration list for PBXProject "SpartanMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF50273F206B18030022D8C9 /* Debug */,
+				FF502740206B18030022D8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF502741206B18030022D8C9 /* Build configuration list for PBXNativeTarget "SpartanMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF502742206B18030022D8C9 /* Debug */,
+				FF502743206B18030022D8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF502736206B18030022D8C9 /* SpartanMap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF502737206B18030022D8C9 /* SpartanMap.xcdatamodel */,
+			);
+			currentVersion = FF502737206B18030022D8C9 /* SpartanMap.xcdatamodel */;
+			path = SpartanMap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF502724206B18030022D8C9 /* Project object */;
+}
