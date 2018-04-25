@@ -640,7 +640,6 @@
         <image name="userIcon" width="50" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="G70-Hx-kBx"/>
         <segue reference="KF6-c7-iOf"/>
     </inferredMetricsTieBreakers>
 </document>
