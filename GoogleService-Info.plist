@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>227322978558-fb4grl3v3cvag9f5qq5b1nqoq8o75b48.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.227322978558-fb4grl3v3cvag9f5qq5b1nqoq8o75b48</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC37EJhxg1r1W8UGhCj0HZx7R4ry9UEAcc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>227322978558</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>yosimy.cortes.MapkitPractice</string>
+	<key>PROJECT_ID</key>
+	<string>mapkitpractice-202cc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mapkitpractice-202cc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:227322978558:ios:d8fdfb6814213b8b</string>
+	<key>DATABASE_URL</key>
+	<string>https://mapkitpractice-202cc.firebaseio.com</string>
+    <key>FACEBOOK_APP_ID</key>
+    <string>fb404355150009720</string>
+    <key>FACEBOOK_DISPLAY_NAME</key>
+    <string>SpartanMaps</string>
+</dict>
+</plist>
